@@ -1,0 +1,226 @@
+<html>
+
+<head>
+
+  <title>Personal Portfolio </title>
+  <link rel="stylesheet" href="global.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" />
+</head>
+
+<body>
+  <div id="header">
+    <div class="container">
+      <nav>
+        <img src="logo.png" class="logo" />
+        <ul id="hamburger">
+          <li><a href="#header">Home</a></li>
+          <li><a href="#about">About me</a></li>
+          <li><a href="#contactme">Contact</a></li>
+          <li><a href="#portfolio">Portfolio</a></li>
+          <li><a href="#">Services</a></li>
+    
+        <i class="fas fa-times" onclick="closeMenu()"></i>
+        </ul>
+        <i class="fas fa-bars" onclick="toggleMenu()"></i>
+      </nav>
+     
+
+    </div>
+    <div class="header-para"> 
+      <p> Frontend Developer</p>
+      <h1>Hi, I'm <span class="name">Harsh </span><br> from New York.</h1>
+    </div>
+  </div>
+  <!-- About me -->
+  <div id="about">
+    <div class="row">
+      <div class="about-col-1">
+        <img src="harsh.png" />
+      </div>
+      <div class="about-col-2">
+        <h1>A little bit about myself</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Praesentium, aut maxime! Sunt, quia blanditiis?
+          Nihil rerum odio eveniet dolorum maxime numquam, quaerat minus, expedita optio incidunt voluptatum tempore hic
+          aliquid.</p>
+        <div class="about-tab">
+          <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+          <p class="tab-links" onclick="opentab('education')">Education</p>
+          <p class="tab-links" onclick="opentab('experience')">Experience</p>
+
+        </div>
+        <div class="tab-content active-tab" id="skills">
+          <ul>
+            <li><span>UI/UX </span><br>Designing Web/App interfaces</li>
+            <li><span>Web Development</span><br>Web app Development</li>
+            <li><span>App Development</span><br>Building Android Apps
+            <li>
+          </ul>
+        </div>
+        <div class="tab-content" id="education">
+          <ul>
+            <li><span>2022 - 2025 </span><br>BSCIT From University of Mumbai</li>
+            <li><span>2020 - 2022</span><br>HSC From Durgadevi Saraf College</li>
+            <li><span>2007-2020</span><br>Shree Vishwakarma High School
+            <li>
+          </ul>
+        </div>
+        <div class="tab-content" id="experience">
+          <ul>
+            <li><span>2024 - Current </span><br>Internship at CodSoft</li>
+            <li><span> August 2023 - November 2023</span><br>Freelancing</li>
+            <li><span>June 2023</span><br>Started learning Web Development from online Source</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Services -->
+  <div id="services">
+  <div class="section">
+    <h1>My Services</h1>
+    <div class="services">
+      <div class="service">
+        <h3>Responsive Web Design </h3>
+      
+        <p>I can create responsive and mobile-friendly websites to ensure they look great on all devices.
+          <br>
+          <a href="#">learn more</a>
+        </p>
+      </div>
+      <div class="service">
+        <h3>Frontend Development</h3>
+        <p>
+
+          I specialize in HTML, CSS, and JavaScript for building web interfaces, and I'm experienced in React.js for
+          dynamic web applications and Axios for asynchronous HTTP requests<br>
+          <a href="#">learn more</a>
+        </p>
+      </div>
+      <div class="service">
+        <h3>Website Maintenance</h3>
+        <p>I provide ongoing support and maintenance to keep your website running smoothly and up-to-date.
+          <br>
+          <a href="#">learn more</a>
+        </p>
+      </div>
+    </div>
+  </div>
+
+
+
+  <!-- Portfolio -->
+  <div id="portfolio">
+    <div class="section">
+      <h1>Portfolio</h1>
+      <div class="portfolio-items">
+        <div class="portfolio-item">
+          <img src="Firstimg.jpeg" alt="Project 1">
+
+          <h3>Project 1</h3>
+          <p>
+            This project showcases the developer's skills in HTML, CSS,
+            JavaScript, and other relevant technologies, highlighting their
+            creativity, keen eye for design, and dedication to the craft.</p>
+
+        </div>
+        <div class="portfolio-item">
+          <img src="secimg.jpeg" alt="Project 2">
+
+          <h3>Project 2</h3>
+          <p>
+            This project showcases the developer's skills in HTML,CSS,
+            JavaScript, and other relevant technologies, highlighting their
+            creativity, keen eye for design, and dedication to the craft.</p>
+
+        </div>
+        <div class="portfolio-item">
+          <img src="thirdimg.jpeg" alt="Project 3">
+
+          <h3>Project 3</h3>
+          <p>
+            This project showcases the developer's skills in HTML, CSS,
+            JavaScript, and other relevant technologies, highlighting their
+            creativity, keen eye for design, and dedication to the craft.</p>
+
+        </div>
+      </div>
+      <a href="#" class="btn">See more</a>
+    </div>
+  </div>
+  <!-- Contact me -->
+  <div id="contactme">
+  <div class="contact-container">
+    <div class="row">
+      <div class="left">
+        <h1>Contact Me</h1>
+
+        <div class="social-media">
+          <p><i class="fa-solid fa-paper-plane"></i>contact@gmail.com</p>
+          <p><i class="fa-solid fa-phone-square"></i>0123456789</p>
+          <a href="https://www.linkedin.com/in/your-linkedin-profile" target="_blank"><i
+              class="fa-brands fa-linkedin"></i></a>
+          <a href="https://www.instagram.com/your-instagram-profile" target="_blank"><i
+              class="fa-brands fa-instagram"></i></a>
+          <a href="https://telegram.me/your-telegram-handle" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+          <a href="https://github.com/your-github-profile" target="_blank"><i class="fa-brands fa-github"></i></a>
+          <div><a href="" class="btn btn2">Download CV</a></div>
+        </div>
+     
+      </div>
+      
+      <div class="right">
+        <div class="contact-form">
+
+          <!-- Embed Google Form -->
+          <form>
+
+            <input type="text" placeholder="Your Name" required />
+            <input type="email" placeholder="Your Email" required />
+            <textarea rows="8" placeholder="Your Message"></textarea>
+            <button type="submit" class="btn btn2" >Submit</button>
+          </form>
+
+
+
+        </div>
+      </div>
+
+    </div>
+  </div>
+</div>
+  <footer class="copyright">
+    <p>&copy; 2024 My Portfolio. All rights reserved.Harsh Thapa</p>
+</footer>
+
+
+
+  <script>
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-content");
+
+    function opentab(tabname) {
+      for (tablink of tablinks) {
+        tablink.classList.remove("active-link")
+      }
+      for (tabcontent of tabcontents) {
+        tabcontent.classList.remove("active-tab")
+      }
+      event.currentTarget.classList.add("active-link");
+      document.getElementById(tabname).classList.add("active-tab");
+    
+  
+    }
+    // Menu fro Hamburger
+    var menu = document.getElementById ("hamburger");
+    function toggleMenu() {
+    menu.style.right="0"
+    }
+    function closeMenu() {
+    menu.style.right="-200px"
+    }
+
+  </script>
+</body>
+
+</html>
